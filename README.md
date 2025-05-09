@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+# ✨ Riyo Rialdy's Portfolio Website ✨
+# 🚀 Welcome to My Web Portfolio!
+![image](https://github.com/user-attachments/assets/5f996985-7777-48aa-9bbb-281ff2b17b5f)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/644e084b-84c6-45a0-88e8-c9b147862262)
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/6597d772-96b9-4a34-ba87-a48103b53ebf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/7b43f3da-6629-4ceb-9bab-bbf56d24f5b6)
 
-## Expanding the ESLint configuration
+# 🔍 About This Project
+This is my personal portfolio website built with React and Vite to showcase my skills, projects, and professional journey! 💼
+The site is designed to be:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📱 Fully responsive (looks great on all devices!)
+⚡ Lightning fast (thanks to Vite!)
+🎨 Visually appealing with smooth animations
+🧩 Modular and maintainable
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+# 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Frontend Framework: React.js
+Build Tool: Vite
+Styling: Tailwind CSS/CSS
+Deployment: Netlify
+Animation: Framer Motion
+Icons: React Icons
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+# 🚀 Features
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+🏠 Home Section: Brief introduction and hero image
+👨‍💻 About Me Section: My background, skills, and journey
+💻 Projects Section: Showcase of my best work with live demos and GitHub links
+📚 Skills Section: Technical skills with cool visual representations
+📝 Experience Section: Work and educational history
+📬 Contact Section: Easy ways to get in touch with me
+
+
+🙏 Acknowledgements
+
+✨ Special thanks to all the open-source libraries that made this project possible
+💖 Thanks to my mentors and friends who provided feedback
+
+
+⭐️ From RIYORIALDY with 💖
